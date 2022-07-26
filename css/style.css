@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;    
+}
+
+.main {
+    height: 785px;
+    background: url("../img/bg.jpg") center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main h1 {
+    font-size: 64px;
+    max-width: 510px;
+    text-align: center;
+}
+
+.gradiente {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
